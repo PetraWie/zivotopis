@@ -1,7 +1,42 @@
-body {background-color: #edc7b7}
+body {
+    background-color: #eee2dc;
+    color: yellow; 
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    margin: 0;
+}
 
-h1 {color: #ac3b61}
+h1 {
+    text-align: center;
+    padding: 35px 15%;
+}
 
-p {color: #123c69}
+h1, h2 {
+    color: #ac3b61;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
+    margin-top: 0px;
+}
 
-.barva {color: #bab2b5}
+em {font-weight: bold}
+
+p {
+    color: #123c69;
+    line-height: 1.5
+}
+
+section {padding: 35px 15%;}
+
+.omne, .paticka {background-color: #F3DADA}
+
+.fotogalerie img {
+    width: 32%;
+    border: 1.5px solid #ac3b61;
+    border-radius: 50%;
+}
+
+.paticka {text-align: center;
+padding: 10px 0;}
+

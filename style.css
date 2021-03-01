@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     text-align: justify;
     margin: 0;
 }
@@ -13,14 +14,16 @@ h1 {
     padding: 35px 15%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #ac3b61;
     font-family: 'Abril Fatface', cursive;
-    font-weight: 300;
+    font-weight: 50%;
     margin-top: 0px;
 }
 
-em {font-weight: bold}
+em {font-variant: small-caps;
+    font-weight: normal;
+}
 
 p {
     color: #123c69;
@@ -37,6 +40,15 @@ section {padding: 35px 15%;}
     border-radius: 50%;
 }
 
+.recept {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.citaty {
+    color: grey;
+    line-height: 1.6;
+}
 .paticka {text-align: center;
 padding: 10px 0;}
 
